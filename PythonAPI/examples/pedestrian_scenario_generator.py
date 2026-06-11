@@ -3,6 +3,11 @@
 """
 行人测试场景生成器
 基于已有行人系统生成各种测试场景
+复现说明：
+1. 启动CARLA模拟器（默认地址localhost:2000）
+2. 运行命令：python pedestrian_scenario_generator.py --scenario crossing --count 5
+3. 可选参数：--scenario 选择场景（crossing/crowd/risk），--count 行人数量
+4. 查看效果：观察行人行为和场景效果
 """
 
 import carla
