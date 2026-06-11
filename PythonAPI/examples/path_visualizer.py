@@ -3,6 +3,11 @@
 """
 路径规划可视化工具
 可视化车辆路径规划结果，包括全局路径和局部轨迹
+复现说明：
+1. 启动CARLA模拟器（默认地址localhost:2000）
+2. 运行命令：python path_visualizer.py --start 0,0 --end 100,100
+3. 可选参数：--start 起点坐标，--end 终点坐标
+4. 查看效果：观察路径规划和车辆跟踪可视化
 """
 
 import carla
