@@ -3,6 +3,11 @@
 """
 性能监控仪表盘
 基于已有性能分析功能提供可视化监控
+复现说明：
+1. 启动CARLA模拟器（默认地址localhost:2000）
+2. 运行命令：python performance_dashboard.py --mode dashboard --interval 5
+3. 可选参数：--mode 模式（dashboard/export），--interval 刷新间隔（秒）
+4. 查看效果：观察实时性能监控数据
 """
 
 import carla
