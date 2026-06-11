@@ -3,6 +3,11 @@
 """
 记录数据分析工具
 基于已有记录器数据进行分析
+复现说明：
+1. 先使用CARLA记录器生成记录文件（recording.json）
+2. 运行命令：python recorder_data_analyzer.py --file recording.json
+3. 可选参数：--file 记录文件路径（必填）
+4. 查看效果：查看生成的分析报告
 """
 
 import carla
