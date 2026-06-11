@@ -3,6 +3,11 @@
 """
 配置批量管理工具
 基于已有配置系统进行批量管理
+复现说明：
+1. 启动CARLA模拟器（默认地址localhost:2000）
+2. 运行命令：python config_batch_manager.py --action export --name my_config
+3. 可选参数：--action 选择操作（export/batch/list/compare）
+4. 查看效果：查看导出的配置文件或对比结果
 """
 
 import carla
