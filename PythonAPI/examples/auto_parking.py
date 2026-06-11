@@ -3,6 +3,12 @@
 """
 车辆自动泊车系统
 实现车辆的自动平行泊车和垂直泊车功能
+复现说明：
+1. 启动CARLA模拟器（默认地址localhost:2000）
+2. 在模拟器中生成一辆车
+3. 运行命令：python auto_parking.py --mode parallel
+4. 可选参数：--mode parallel（平行泊车）或 perpendicular（垂直泊车）
+5. 查看效果：观察车辆自动泊入车位
 """
 
 import carla
