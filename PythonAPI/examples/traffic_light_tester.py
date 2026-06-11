@@ -3,6 +3,11 @@
 """
 交通灯测试工具
 基于已有交通灯系统进行功能测试和验证
+复现说明：
+1. 启动CARLA模拟器（默认地址localhost:2000）
+2. 运行命令：python traffic_light_tester.py --test all
+3. 可选参数：--test 选择测试类型（all/states/transition/manual）
+4. 查看效果：观察交通灯状态变化和测试报告
 """
 
 import carla
