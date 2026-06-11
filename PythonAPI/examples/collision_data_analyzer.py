@@ -3,6 +3,11 @@
 """
 碰撞数据分析工具
 基于已有碰撞检测数据进行分析
+复现说明：
+1. 启动CARLA模拟器（默认地址localhost:2000）
+2. 运行命令：python collision_data_analyzer.py --duration 60
+3. 可选参数：--duration 收集时长（秒）
+4. 查看效果：观察碰撞事件收集和分析报告
 """
 
 import carla
