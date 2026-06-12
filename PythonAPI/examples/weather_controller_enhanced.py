@@ -11,7 +11,7 @@
 1. 启动CARLA模拟器（默认地址localhost:2000）
 2. 运行命令：python weather_controller_enhanced.py --preset clear_noon
 3. 可选参数：--preset 选择天气预设（clear_noon/cloudy_noon/wet_noon/hard_rain_noon/foggy_noon/clear_sunset/cloudy_night）
-4. 查看效果：在模拟器中观察天气变化
+4. 查看效果：在模拟器中观察天气变化    
 """
 
 import carla
